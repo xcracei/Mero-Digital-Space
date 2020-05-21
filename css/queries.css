@@ -1,0 +1,38 @@
+/* media */
+@media only screen and (max-width: 1294px) {
+
+    header,
+    main {
+        flex-wrap: wrap;
+    }
+
+    .container-left,
+    .container-right {
+        width: -webkit-fill-available;
+    }
+
+    .hero-img img {
+        width: 100%;
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 678px) {
+    nav a {
+        font-weight: bolder;
+    }
+
+    img.social-icon {
+        width: 1.5rem;
+    }
+
+    h1.main-title {
+        margin-top: 2rem;
+        font-size: 2.4rem;
+    }
+
+    h3.main-title-text {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+}

@@ -1,0 +1,124 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat;
+    color: #3f3f44;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #3f3f44;
+}
+
+/* nav */
+nav {
+    padding: 2rem;
+    position: absolute;
+    z-index: 1;
+}
+
+nav a {
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+/* main */
+main {
+    position: relative;
+    display: flex;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    margin: 12rem 0 0 1rem;
+    position: fixed;
+}
+
+img.social-icon:hover {
+    border: 0.1rem solid orangered;
+}
+
+.hero-text {
+    padding: 5rem;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+}
+
+.hero-text h3 {
+    margin: 2rem 0;
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+
+.hero-img img {
+    display: block;
+}
+
+main button.join {
+    border-radius: 20% 20% 30% 30%;
+    background-color: #3f3f44;
+    border-style: none;
+    padding: 0.5rem 1rem;
+}
+
+button a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+button.join:hover {
+    background-color: orangered;
+    border: 0.5rem solid orangered;
+    border-radius: 0;
+}
+
+/* section-services */
+.services {
+    height: 16.5rem;
+    color: white;
+    background-color: #3f3f44;
+}
+
+/* section-testimonials */
+.testimonials {
+    height: 16.5rem;
+}
+
+/* seection-about-contact */
+.container-about-contact {
+    display: flex;
+    justify-content: space-evenly;
+    height: 16.5rem;
+}
+
+.about {
+    flex: 1 0 0;
+    border: 0.5rem solid #3f3f44;
+}
+
+.contact {
+    background-color: #3f3f44;
+    color: white;
+    flex: 1 0 0;
+}
+
+/* footer */
+footer {
+    padding: 2rem;
+}
+
+span.developer {
+    color: orangered;
+}
